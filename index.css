@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-image: url("basketball.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 575px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    border: 1px solid #9AABD8;
+}
+
+.scoreboard {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9AABD8;
+}
+
+h3 {
+    color: #EEEEEE;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    ;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    width: 117px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.btns {
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    font-family: "Cursed Timer ULiL";
+    color: #9AABD8;
+    padding: 10px;
+}
+
+.btns:hover {
+    background-color: #6d88d3
+}
+
+.btns:active {
+    background-color: #6d88d3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url(Cursed_Timer_ULiL/CursedTimerULiL.ttf)format("ttf");
+    src: url(Cursed_Timer_ULiL/CursedTimerULiL.woff) format("woff");
+}
+
+.clearBtn {
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    font-family: "Cursed Timer ULiL";
+    color: #9AABD8;
+    height: 50px;
+    margin: auto 0;
+}
+
+.clearBtn:hover {
+    background-color: #6d88d3
+}
+
+.clearBtn:active {
+    background-color: #6d88d3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
